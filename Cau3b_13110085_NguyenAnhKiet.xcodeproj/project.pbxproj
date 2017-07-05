@@ -14,6 +14,8 @@
 		2EC00D961F0CBDD900CF0AC9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2EC00D941F0CBDD900CF0AC9 /* LaunchScreen.storyboard */; };
 		2EC00DA11F0CBDD900CF0AC9 /* Cau3b_13110085_NguyenAnhKietTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EC00DA01F0CBDD900CF0AC9 /* Cau3b_13110085_NguyenAnhKietTests.swift */; };
 		2EC00DAC1F0CBDD900CF0AC9 /* Cau3b_13110085_NguyenAnhKietUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EC00DAB1F0CBDD900CF0AC9 /* Cau3b_13110085_NguyenAnhKietUITests.swift */; };
+		2EC00DBA1F0CBE8300CF0AC9 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EC00DB91F0CBE8300CF0AC9 /* Model.swift */; };
+		2EC00DBC1F0CBF0A00CF0AC9 /* ViewDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EC00DBB1F0CBF0A00CF0AC9 /* ViewDataSource.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		2EC00DA71F0CBDD900CF0AC9 /* Cau3b_13110085_NguyenAnhKietUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Cau3b_13110085_NguyenAnhKietUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2EC00DAB1F0CBDD900CF0AC9 /* Cau3b_13110085_NguyenAnhKietUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cau3b_13110085_NguyenAnhKietUITests.swift; sourceTree = "<group>"; };
 		2EC00DAD1F0CBDD900CF0AC9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2EC00DB91F0CBE8300CF0AC9 /* Model.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		2EC00DBB1F0CBF0A00CF0AC9 /* ViewDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewDataSource.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +107,8 @@
 				2EC00D921F0CBDD900CF0AC9 /* Assets.xcassets */,
 				2EC00D941F0CBDD900CF0AC9 /* LaunchScreen.storyboard */,
 				2EC00D971F0CBDD900CF0AC9 /* Info.plist */,
+				2EC00DB91F0CBE8300CF0AC9 /* Model.swift */,
+				2EC00DBB1F0CBF0A00CF0AC9 /* ViewDataSource.swift */,
 			);
 			path = Cau3b_13110085_NguyenAnhKiet;
 			sourceTree = "<group>";
@@ -259,6 +265,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2EC00DBA1F0CBE8300CF0AC9 /* Model.swift in Sources */,
+				2EC00DBC1F0CBF0A00CF0AC9 /* ViewDataSource.swift in Sources */,
 				2EC00D8E1F0CBDD900CF0AC9 /* ViewController.swift in Sources */,
 				2EC00D8C1F0CBDD900CF0AC9 /* AppDelegate.swift in Sources */,
 			);
