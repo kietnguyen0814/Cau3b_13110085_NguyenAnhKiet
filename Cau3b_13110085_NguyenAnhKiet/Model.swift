@@ -16,12 +16,12 @@ class Model {
     }
     
     class func priority1() -> Model {
-        return Model(priorityName: "Work 1", task: [
+        return Model(priorityName: "Priority 1", task: [
             "Task 1", "Task 2"])
     }
     
     class func priority2() -> Model {
-        return Model(priorityName: "Work 2", task: [
+        return Model(priorityName: "Priority 2", task: [
             "Task 3", "Task 4", "Task 5"            ])
     }
     
